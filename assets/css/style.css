@@ -51,6 +51,8 @@ button { font: inherit; }
 .eyebrow { display: inline-block; margin-bottom: 12px; color: var(--green); font-size: .78rem; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
 .hero h1, .page-hero h1, .section-title, .story h2, .club h2, .footer-heading { font-family: Georgia, serif; }
 .hero h1 { margin: 0; max-width: 700px; font-size: clamp(3rem, 6vw, 5.4rem); line-height: .98; letter-spacing: -.02em; }
+.hero-title-main { display: block; }
+.hero-title-sub { display: block; margin-top: 7px; font-size: .34em; line-height: 1.08; letter-spacing: 0; font-weight: 700; }
 .hero p { max-width: 620px; margin: 22px 0 0; color: var(--muted); font-size: 1.18rem; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
 .hero-visual { position: relative; }
@@ -159,6 +161,7 @@ button { font: inherit; }
   .brand-name { font-size: 1rem; }
   .brand-tagline { font-size: .58rem; }
   .hero h1 { font-size: 3rem; }
+  .hero-title-sub { font-size: .42em; }
   .hero p { font-size: 1.03rem; }
   .section { padding: 64px 0; }
   .feature-grid, .products, .recipe-grid, .info-grid, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
