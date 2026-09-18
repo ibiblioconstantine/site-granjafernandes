@@ -67,3 +67,9 @@ Estados utilizados:
 A primeira versão do site está publicada em GitHub Pages e utiliza HTML, CSS e JavaScript estáticos.
 
 A implementação deve continuar somente com informações confirmadas. Itens pendentes ou em revisão não devem ser transformados em conteúdo definitivo sem nova validação.
+
+## Controle interno vinculado
+
+A matriz integral, com respostas/anotações e demais informações internas do projeto, é mantida no repositório privado:
+
+https://github.com/ibiblioconstantine/site-granjafernandes-interno
