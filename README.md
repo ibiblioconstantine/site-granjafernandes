@@ -20,6 +20,7 @@ Versão estática da primeira implementação pública da Granja Fernandes — O
 - `assets/js/main.js` — navegação e links WhatsApp
 - `assets/images/` — logo e imagem principal
 - `assets/images/products/` — produtos
+- `assets/images/recipes/` — imagens das receitas, associadas por nome à página Receitas
 - `CNAME` — domínio personalizado
 - `.nojekyll` — publicação estática sem Jekyll
 
