@@ -73,11 +73,8 @@ button { font: inherit; }
 
 .products { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 18px; align-items: stretch; }
 .product-card { display: flex; flex-direction: column; height: 100%; overflow: hidden; background: var(--sand); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 10px 22px rgba(61,35,20,.06); }
-.product-image { position: relative; height: clamp(260px, 22vw, 300px); background: #e5dfc8; overflow: hidden; flex: 0 0 auto; }
+.product-image { position: relative; aspect-ratio: 1 / 1; background: #e5dfc8; overflow: hidden; flex: 0 0 auto; }
 .product-image img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
-.product-badge { position: absolute; left: 50%; bottom: 10px; transform: translateX(-50%); z-index: 3; display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-width: 142px; height: 38px; padding: 5px 15px 5px 10px; border-radius: 999px; background: var(--green); color: var(--cream); font-size: .95rem; font-weight: 900; letter-spacing: .03em; white-space: nowrap; box-shadow: 0 5px 12px rgba(61,35,20,.18); }
-.egg-icon { position: relative; display: inline-block; width: 23px; height: 17px; flex: 0 0 23px; border: 2px solid var(--cream); border-radius: 50% 50% 48% 52% / 62% 58% 42% 38%; transform: rotate(-7deg); background: transparent; }
-.egg-icon::after { content: ""; position: absolute; width: 7px; height: 4px; border-left: 2px solid var(--cream); border-bottom: 2px solid var(--cream); border-radius: 0 0 0 7px; left: 5px; bottom: 2px; transform: rotate(-16deg); opacity: .9; }
 .product-body { padding: 20px; display: flex; min-height: 188px; flex: 1; flex-direction: column; }
 .product-body h3 { min-height: 2.15em; margin: 0 0 6px; font-family: Georgia, serif; font-size: 1.3rem; }
 .price { min-height: 1.45em; margin: 0 0 16px; color: var(--green); font-size: 1.35rem; font-weight: 900; }
@@ -137,6 +134,7 @@ button { font: inherit; }
 .footer-links { display: grid; gap: 8px; }
 .footer-links a:hover { color: var(--gold); }
 .copyright { margin-top: 32px; padding-top: 18px; border-top: 1px solid rgba(250,248,237,.18); color: #ded7c5; font-size: .84rem; }
+.trademark-notice { display: block; margin-top: 8px; line-height: 1.5; }
 .whatsapp-float { display: none; position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 70; padding: 13px 16px; border-radius: 999px; text-align: center; background: var(--action); color: var(--cream); font-weight: 900; box-shadow: 0 14px 30px rgba(0,0,0,.22); }
 @media (max-width: 1000px) {
   .nav, .header-cta { display: none; }
@@ -170,7 +168,7 @@ button { font: inherit; }
   .hero-badge { position: static; max-width: none; margin-top: 14px; }
   .story-photo { min-height: 280px; }
   .recipe-media, .recipe-media img { min-height: 220px; }
-  .product-image { height: auto; aspect-ratio: 1 / 1; }
+  .product-image { aspect-ratio: 1 / 1; }
   .product-body { min-height: 180px; }
   .whatsapp-float { display: block; }
 }
