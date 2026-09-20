@@ -26,3 +26,10 @@ A página **404** também passou a possuir um rodapé mínimo com essas duas inf
 - Rodapé da página 404: `GF-CODE-017`
 
 A documentação integral das decisões permanece no repositório privado de controle do projeto.
+
+## 2026-09-20 — Associação das imagens das receitas
+
+- A página `receitas.html` foi corrigida para usar imagens individuais correspondentes às receitas 1 a 8.
+- Caminho padronizado: `assets/images/recipes/`.
+- Arquivos esperados: `01_farofa_de_ovos.png`, `02_moqueca_de_ovos.png`, `03_ovo_poche.png`, `04_fios_de_ovos.png`, `05_panqueca_banana_aveia.png`, `06_omelete_banho_maria.png`, `07_arroz_de_frigideira.png` e `08_ovos_dourados_tomate_queijo.png`.
+- Os oito arquivos de imagem de origem estão disponíveis entre os materiais fornecidos para o projeto; contudo, a ferramenta GitHub disponível nesta execução não permite transferir diretamente os bytes dos PNGs anexados para blobs binários do repositório. Por isso, a associação no HTML foi preparada, mas a presença física dos oito PNGs no repositório ainda precisa ser concluída.
