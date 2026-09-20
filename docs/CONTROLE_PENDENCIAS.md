@@ -73,3 +73,16 @@ A implementação deve continuar somente com informações confirmadas. Itens pe
 A matriz integral, com respostas/anotações e demais informações internas do projeto, é mantida no repositório privado:
 
 https://github.com/ibiblioconstantine/site-granjafernandes-interno
+
+## Atualizações posteriores
+
+- **46** — Rodapé padronizado com `© 2026 Granja Fernandes. Todos os direitos reservados.`
+- **47** — Hierarquia do título principal da Home ajustada para “Ovos Caipiras” + “da Granja Fernandes”.
+- **49** — Produto “Galinhas de Postura Caipira” removido do catálogo.
+- **50** — Alinhamento dos cartões de produtos ajustado nas páginas Início e Nossos Ovos.
+- **51** — A tentativa de criar um selo HTML/CSS com ícone ovalado foi posteriormente revertida por decisão de preservar os selos originais incorporados nas imagens dos produtos.
+- **52** — Oito receitas foram estruturadas na página Receitas; a associação definitiva dos arquivos PNG ainda permanece em revisão técnica.
+- **53** — Removida a sobreposição dos selos HTML/CSS, restaurando cor e ícone originais das etiquetas das imagens dos produtos.
+- **54** — Adicionado ao rodapé: `© 2026 Granja Fernandes. Todos os direitos reservados.` e `Granja Fernandes® é uma marca registrada. É proibida a reprodução total ou parcial sem autorização prévia.`
+
+A matriz integral e atualizada permanece no repositório privado de controle do projeto.
