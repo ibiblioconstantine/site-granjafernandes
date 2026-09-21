@@ -94,3 +94,5 @@ A matriz integral e atualizada permanece no repositório privado de controle do 
 - **57** — Mapa reposicionado para um terceiro quadro abaixo de Atendimento e Entrega, ocupando toda a largura do container. Status: **Confirmado**.
 
 - **58** — Corrigida a largura do terceiro quadro do Maps para ocupar 100% da largura do container, abaixo dos quadros Atendimento e Entrega. Status: **Confirmado**.
+
+- **59** — Removido o texto “Localização da Granja” do terceiro quadro da página Contato; quadro permanece dedicado ao embed do Maps. Status: **Confirmado**.
