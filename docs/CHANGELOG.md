@@ -64,3 +64,8 @@ A documentação integral das decisões permanece no repositório privado de con
 - O container interno do mapa também recebeu `width: 100%`.
 - O iframe passou a ter largura total e altura explícita de 450px, preservando a responsividade horizontal.
 - A estrutura permanece: **Atendimento** + **Entrega** na primeira linha e **Localização da Granja / Maps** em um terceiro quadro abaixo, com a largura conjunta dos dois quadros superiores.
+
+## 2026-09-21 — Ajuste final do quadro do Maps
+
+- Removido o título **“Localização da Granja”** do terceiro quadro da página **Contato**.
+- O quadro permanece reservado exclusivamente ao mapa incorporado, mantendo a largura integral e o leiaute aprovado.
