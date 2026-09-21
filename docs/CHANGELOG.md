@@ -48,3 +48,11 @@ A documentação integral das decisões permanece no repositório privado de con
 - O iframe recebeu título acessível, carregamento lazy, `allowfullscreen` e `referrerpolicy` conforme o código fornecido.
 - Criado estilo responsivo para o quadro, com borda, cantos arredondados, fundo e largura adaptável ao container da página.
 - O botão existente **ABRIR NO GOOGLE MAPS** foi mantido.
+
+## 2026-09-21 — Reposicionamento do mapa na página Contato
+
+- O mapa do Google Maps foi retirado do interior do quadro **Entrega**.
+- Foi criado um terceiro quadro exclusivo, **Localização da Granja**, abaixo dos dois quadros principais (**Atendimento** e **Entrega**).
+- O novo quadro ocupa toda a largura do container, correspondendo à largura conjunta dos dois quadros superiores no desktop, conforme o leiaute solicitado.
+- O embed do Google Maps foi mantido sem alteração de URL/parâmetros.
+- O botão **ABRIR NO GOOGLE MAPS** permanece dentro do quadro **Entrega**.
