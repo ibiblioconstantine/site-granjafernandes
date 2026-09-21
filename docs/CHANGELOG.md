@@ -41,3 +41,10 @@ A documentação integral das decisões permanece no repositório privado de con
 - Conferidas as 8 referências em `receitas.html`; todas apontam para os respectivos arquivos e os nomes coincidem.
 - Confirmado no CSS que `.recipe-media img` aplica largura total e `object-fit: cover`, permitindo a renderização das imagens no layout atual.
 - Não foi necessária alteração de caminho ou nomenclatura no HTML nesta etapa.
+
+## 2026-09-21 — Mapa incorporado na página Contato
+
+- Adicionado um quadro próprio para o Google Maps na página `contato.html`, usando exatamente o código de embed fornecido para a localização da Granja Fernandes.
+- O iframe recebeu título acessível, carregamento lazy, `allowfullscreen` e `referrerpolicy` conforme o código fornecido.
+- Criado estilo responsivo para o quadro, com borda, cantos arredondados, fundo e largura adaptável ao container da página.
+- O botão existente **ABRIR NO GOOGLE MAPS** foi mantido.
