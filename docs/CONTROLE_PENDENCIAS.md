@@ -92,3 +92,5 @@ A matriz integral e atualizada permanece no repositório privado de controle do 
 - **56** — Mapa incorporado na página Contato com o código de embed fornecido pelo usuário; botão externo do Google Maps preservado. Status: **Confirmado**.
 
 - **57** — Mapa reposicionado para um terceiro quadro abaixo de Atendimento e Entrega, ocupando toda a largura do container. Status: **Confirmado**.
+
+- **58** — Corrigida a largura do terceiro quadro do Maps para ocupar 100% da largura do container, abaixo dos quadros Atendimento e Entrega. Status: **Confirmado**.
