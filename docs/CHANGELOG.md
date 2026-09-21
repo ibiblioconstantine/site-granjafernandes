@@ -56,3 +56,11 @@ A documentação integral das decisões permanece no repositório privado de con
 - O novo quadro ocupa toda a largura do container, correspondendo à largura conjunta dos dois quadros superiores no desktop, conforme o leiaute solicitado.
 - O embed do Google Maps foi mantido sem alteração de URL/parâmetros.
 - O botão **ABRIR NO GOOGLE MAPS** permanece dentro do quadro **Entrega**.
+
+## 2026-09-21 — Correção da largura do quadro do Maps
+
+- Revisado o leiaute da página **Contato** após a validação visual.
+- O quadro **Localização da Granja** foi explicitamente definido com `width: 100%` para ocupar toda a largura disponível do container.
+- O container interno do mapa também recebeu `width: 100%`.
+- O iframe passou a ter largura total e altura explícita de 450px, preservando a responsividade horizontal.
+- A estrutura permanece: **Atendimento** + **Entrega** na primeira linha e **Localização da Granja / Maps** em um terceiro quadro abaixo, com a largura conjunta dos dois quadros superiores.
