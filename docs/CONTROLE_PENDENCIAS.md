@@ -88,3 +88,5 @@ https://github.com/ibiblioconstantine/site-granjafernandes-interno
 A matriz integral e atualizada permanece no repositório privado de controle do projeto.
 
 - **55** — Os oito PNGs das receitas foram adicionados ao repositório e validados contra as referências de `receitas.html`; pendência técnica encerrada.
+
+- **56** — Mapa incorporado na página Contato com o código de embed fornecido pelo usuário; botão externo do Google Maps preservado. Status: **Confirmado**.
