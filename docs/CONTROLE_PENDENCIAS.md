@@ -86,3 +86,5 @@ https://github.com/ibiblioconstantine/site-granjafernandes-interno
 - **54** — Adicionado ao rodapé: `© 2026 Granja Fernandes. Todos os direitos reservados.` e `Granja Fernandes® é uma marca registrada. É proibida a reprodução total ou parcial sem autorização prévia.`
 
 A matriz integral e atualizada permanece no repositório privado de controle do projeto.
+
+- **55** — Os oito PNGs das receitas foram adicionados ao repositório e validados contra as referências de `receitas.html`; pendência técnica encerrada.
