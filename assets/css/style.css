@@ -123,6 +123,7 @@ button { font: inherit; }
 
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 .contact-card { padding: 28px; background: var(--sand); border-radius: 18px; border: 1px solid var(--border); }
+.map-card { margin-top: 24px; padding: 28px; background: var(--sand); border-radius: 18px; border: 1px solid var(--border); }
 .contact-row { padding: 14px 0; border-bottom: 1px solid var(--border); }
 .contact-row:last-child { border-bottom: 0; }
 .contact-row strong { display: block; margin-bottom: 2px; }
