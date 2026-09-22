@@ -80,3 +80,18 @@ A documentação integral das decisões permanece no repositório privado de con
 - O quadro do **Maps** deixou de ter fundo, bordas, raio e sombra; permanece apenas o mapa incorporado, ocupando a largura do container.
 - Atendimento passou a ocupar a mesma largura integral anteriormente usada pelo quadro do Maps.
 - Removido o bloco **“Observação sobre a primeira versão”** imediatamente antes do rodapé.
+
+## 2026-09-22 — Atualização das páginas Receitas e Contato
+
+### Receitas
+- Adicionadas as receitas **09 — Ovo Mexido com Rap10 (Estilo Burrito Crocante)** e **10 — Ovos com Atum e Batatas ao Molho Cremoso de Mostarda**.
+- Associadas às receitas 09 e 10 as imagens já presentes em `assets/images/recipes/`.
+- Removida a mensagem de **Nota editorial** do final da página.
+- Substituído o CTA **COMPRAR OVOS** por **COMPRAR OVOS FRESCOS DE QUALIDADE** nas 10 receitas.
+- CTAs das receitas centralizados horizontalmente dentro de cada card.
+
+### Contato
+- Atendimento e Maps reorganizados lado a lado.
+- Atendimento ocupa 1/3 da largura e Maps ocupa 2/3 da largura do layout desktop.
+- Removidas as informações **Pedidos pelo WhatsApp** e **Todos os dias, em qualquer horário.** do quadro Atendimento.
+- O layout permanece responsivo, empilhando os blocos em telas menores.
