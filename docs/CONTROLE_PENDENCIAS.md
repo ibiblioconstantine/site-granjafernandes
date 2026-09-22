@@ -96,3 +96,5 @@ A matriz integral e atualizada permanece no repositório privado de controle do 
 - **58** — Corrigida a largura do terceiro quadro do Maps para ocupar 100% da largura do container, abaixo dos quadros Atendimento e Entrega. Status: **Confirmado**.
 
 - **59** — Removido o texto “Localização da Granja” do terceiro quadro da página Contato; quadro permanece dedicado ao embed do Maps. Status: **Confirmado**.
+
+- **60** — Simplificação estrutural da página Contato: fundos/bordas removidos, quadro Entrega eliminado, mensagem de consulta de entregas adicionada em Atendimento, mapa mantido sem moldura e bloco de observação removido. Status: **Confirmado**.
