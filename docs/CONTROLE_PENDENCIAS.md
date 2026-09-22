@@ -98,3 +98,6 @@ A matriz integral e atualizada permanece no repositório privado de controle do 
 - **59** — Removido o texto “Localização da Granja” do terceiro quadro da página Contato; quadro permanece dedicado ao embed do Maps. Status: **Confirmado**.
 
 - **60** — Simplificação estrutural da página Contato: fundos/bordas removidos, quadro Entrega eliminado, mensagem de consulta de entregas adicionada em Atendimento, mapa mantido sem moldura e bloco de observação removido. Status: **Confirmado**.
+
+- **61** — Receitas 09 e 10 adicionadas com imagens, Nota editorial removida e CTAs atualizados/centralizados. Status: **Confirmado**.
+- **62** — Contato reorganizado com Atendimento e Maps lado a lado na proporção 1:2; informações sobre pedidos pelo WhatsApp removidas do quadro. Status: **Confirmado**.
