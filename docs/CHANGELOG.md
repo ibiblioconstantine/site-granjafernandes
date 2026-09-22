@@ -69,3 +69,14 @@ A documentação integral das decisões permanece no repositório privado de con
 
 - Removido o título **“Localização da Granja”** do terceiro quadro da página **Contato**.
 - O quadro permanece reservado exclusivamente ao mapa incorporado, mantendo a largura integral e o leiaute aprovado.
+
+## 2026-09-22 — Simplificação final da página Contato
+
+- O topo **Contato, Pedidos e Entrega** passou a usar diretamente o mesmo fundo da página, sem o degradê do `page-hero`.
+- O quadro **Atendimento** deixou de ter fundo, bordas, raio e sombra, preservando os traços horizontais internos das informações.
+- Removido o botão **FAZER PEDIDO** de dentro de Atendimento.
+- Adicionada ao final de Atendimento a mensagem centralizada **“Consulte sobre Entregas pelo whatsapp”**, com tamanho de fonte igual ao texto do quadro e destaque por peso tipográfico.
+- O quadro **Entrega** foi eliminado integralmente.
+- O quadro do **Maps** deixou de ter fundo, bordas, raio e sombra; permanece apenas o mapa incorporado, ocupando a largura do container.
+- Atendimento passou a ocupar a mesma largura integral anteriormente usada pelo quadro do Maps.
+- Removido o bloco **“Observação sobre a primeira versão”** imediatamente antes do rodapé.
