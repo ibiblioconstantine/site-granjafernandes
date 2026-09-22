@@ -103,6 +103,7 @@ button { font: inherit; }
 .info-card p { color: var(--muted); }
 .list { margin: 14px 0 0; padding-left: 20px; color: var(--muted); }
 .page-hero { padding: 72px 0; background: linear-gradient(135deg, var(--sand), var(--cream)); text-align: center; }
+.contact-page-hero { background: var(--cream); }
 .page-hero h1 { margin: 0 0 10px; font-size: clamp(2.6rem,5vw,4.3rem); line-height: 1.04; }
 .page-hero p { max-width: 720px; margin: 0 auto; color: var(--muted); font-size: 1.06rem; }
 
@@ -121,16 +122,17 @@ button { font: inherit; }
 .recipe-card .btn { margin-top: 22px; }
 .recipe-note { margin-top: 28px; padding: 18px 20px; border-radius: 14px; background: rgba(239,235,217,.65); color: var(--muted); }
 
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-.contact-card { padding: 28px; background: var(--sand); border-radius: 18px; border: 1px solid var(--border); }
-.map-card { display: block; width: 100%; margin-top: 24px; padding: 28px; background: var(--sand); border-radius: 18px; border: 1px solid var(--border); }
+.contact-grid { display: block; width: 100%; }
+.contact-card { width: 100%; padding: 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.map-card { display: block; width: 100%; margin-top: 32px; padding: 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
 .contact-row { padding: 14px 0; border-bottom: 1px solid var(--border); }
 .contact-row:last-child { border-bottom: 0; }
 .contact-row strong { display: block; margin-bottom: 2px; }
 .contact-row span { color: var(--muted); }
 .map-link { margin-top: 18px; }
-.map-embed { display: block; width: 100%; margin-top: 22px; overflow: hidden; border: 1px solid var(--border); border-radius: 18px; background: var(--sand); box-shadow: var(--shadow); }
+.map-embed { display: block; width: 100%; margin-top: 0; overflow: hidden; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
 .map-embed iframe { display: block; width: 100%; height: 450px; min-height: 420px; border: 0; }
+.contact-closing { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); text-align: center; color: var(--brown); font-size: 1rem; font-weight: 800; }
 .site-footer { margin-top: 0; padding: 50px 0 24px; background: var(--brown); color: var(--cream); }
 .footer-grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 28px; }
 .footer-heading { margin: 0 0 12px; font-size: 1.35rem; }
