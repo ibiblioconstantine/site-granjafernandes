@@ -122,9 +122,9 @@ button { font: inherit; }
 .recipe-card .btn { margin: 22px auto 0; }
 .recipe-note { margin-top: 28px; padding: 18px 20px; border-radius: 14px; background: rgba(239,235,217,.65); color: var(--muted); }
 
-.contact-grid { display: block; width: 100%; }
+.contact-layout { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; align-items: start; width: 100%; }
 .contact-card { width: 100%; padding: 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
-.map-card { display: block; width: 100%; margin-top: 32px; padding: 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.map-card { display: block; width: 100%; margin-top: 0; padding: 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
 .contact-row { padding: 14px 0; border-bottom: 1px solid var(--border); }
 .contact-row:last-child { border-bottom: 0; }
 .contact-row strong { display: block; margin-bottom: 2px; }
@@ -165,7 +165,7 @@ button { font: inherit; }
   .hero-title-sub { font-size: .42em; }
   .hero p { font-size: 1.03rem; }
   .section { padding: 64px 0; }
-  .feature-grid, .products, .recipe-grid, .info-grid, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
+  .feature-grid, .products, .recipe-grid, .info-grid, .contact-layout, .footer-grid { grid-template-columns: 1fr; }
   .feature + .feature { border-left: 0; border-top: 1px solid var(--border); }
   .feature { padding: 18px; }
   .features { margin-top: -30px; }
