@@ -101,3 +101,6 @@ A matriz integral e atualizada permanece no repositório privado de controle do 
 
 - **61** — Receitas 09 e 10 adicionadas com imagens, Nota editorial removida e CTAs atualizados/centralizados. Status: **Confirmado**.
 - **62** — Contato reorganizado com Atendimento e Maps lado a lado na proporção 1:2; informações sobre pedidos pelo WhatsApp removidas do quadro. Status: **Confirmado**.
+
+
+- **63** — Página 404 reconstruída conforme a referência visual: logo oficial existente em `assets/images/logo.png` utilizada diretamente e preservada; composição 404 estilizada em CSS; botão **PÁGINA INICIAL** com destino funcional para `index.html`; botão **VOLTAR** com histórico do navegador e fallback para a Home. Status: **Confirmado**.
