@@ -95,3 +95,17 @@ A documentação integral das decisões permanece no repositório privado de con
 - Atendimento ocupa 1/3 da largura e Maps ocupa 2/3 da largura do layout desktop.
 - Removidas as informações **Pedidos pelo WhatsApp** e **Todos os dias, em qualquer horário.** do quadro Atendimento.
 - O layout permanece responsivo, empilhando os blocos em telas menores.
+
+
+## 2026-09-29 — Reconstrução visual da página 404
+
+- A página `404.html` foi reconstruída para seguir o layout visual da referência aprovada: identidade da Granja Fernandes no topo, composição central do erro 404 com ovo estilizado, mensagem de página não encontrada e área de ações.
+- A logo exibida na página é a **imagem oficial já existente em `assets/images/logo.png`**, preservada sem redesenho, alteração ou recriação.
+- A dimensão da logo é controlada por CSS com proporção automática (`height: auto`), incluindo ajuste específico para telas menores.
+- O botão **PÁGINA INICIAL** aponta para `index.html`.
+- O botão **VOLTAR** usa o histórico do navegador e, quando não houver histórico disponível, direciona para `index.html`.
+- Foram adicionados elementos decorativos em CSS para aproximar a composição da referência sem alterar a logo oficial.
+
+### Rastreabilidade
+- `GF-CODE-031` — reconstrução estrutural da página 404, uso da logo oficial e navegação funcional.
+- `GF-CODE-032` — estilos visuais responsivos da página 404.
