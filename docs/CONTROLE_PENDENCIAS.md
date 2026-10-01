@@ -104,3 +104,6 @@ A matriz integral e atualizada permanece no repositório privado de controle do 
 
 
 - **63** — Página 404 reconstruída conforme a referência visual: logo oficial existente em `assets/images/logo.png` utilizada diretamente e preservada; composição 404 estilizada em CSS; botão **PÁGINA INICIAL** com destino funcional para `index.html`; botão **VOLTAR** com histórico do navegador e fallback para a Home. Status: **Confirmado**.
+
+
+- **64** — Código human friendly: HTML de todas as páginas, CSS global e JavaScript padronizados com indentação de 2 espaços; adicionados `.editorconfig`, `.prettierrc.json` e documentação do padrão. Alteração de formatação sem mudança intencional de conteúdo ou comportamento. Status: **Confirmado**.
