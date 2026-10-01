@@ -107,3 +107,5 @@ A matriz integral e atualizada permanece no repositório privado de controle do 
 
 
 - **64** — Código human friendly: HTML de todas as páginas, CSS global e JavaScript padronizados com indentação de 2 espaços; adicionados `.editorconfig`, `.prettierrc.json` e documentação do padrão. Alteração de formatação sem mudança intencional de conteúdo ou comportamento. Status: **Confirmado**.
+
+- **65** — Página Início: removido **CONHEÇA A GRANJA**; **FAÇA SEU PEDIDO** passou a direcionar para `nossos-ovos.html`; `hero-granja.png` passou a ocupar toda a largura no topo do hero; caixa **Direto da granja** eliminada; ícones de WhatsApp adicionados aos CTAs com ação WhatsApp; mensagem de compras em maior quantidade e botão **CONSULTAR ATACADO** centralizados. Status: **Confirmado**.
