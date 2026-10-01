@@ -1,91 +1,66 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex">
-  <title>Página não encontrada | Granja Fernandes</title>
-  <link rel="icon" href="assets/images/logo.png" type="image/png">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body class="error-page">
-  <main class="error-main">
-    <div class="error-decoration error-decoration-left" aria-hidden="true">
-      <span class="error-leaf error-leaf-a"></span>
-      <span class="error-leaf error-leaf-b"></span>
-      <span class="error-leaf error-leaf-c"></span>
-      <span class="error-nest"></span>
-      <span class="error-egg error-egg-small"></span>
-      <span class="error-egg error-egg-medium"></span>
-    </div>
-
-    <div class="error-decoration error-decoration-right" aria-hidden="true">
-      <span class="error-hen">
-        <span class="error-hen-head"></span>
-        <span class="error-hen-body"></span>
-        <span class="error-hen-comb"></span>
-        <span class="error-hen-beak"></span>
-        <span class="error-hen-eye"></span>
-        <span class="error-hen-wattle"></span>
-      </span>
-      <span class="error-nest error-nest-right"></span>
-    </div>
-
-    <div class="error-container">
-      <div class="error-logo">
-        <img src="assets/images/logo.png" alt="Granja Fernandes — Ovos Caipiras">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Página não encontrada | Granja Fernandes</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="error-page">
+    <main class="error-main">
+      <div class="error-decoration error-decoration-left" aria-hidden="true">
+        <span class="error-leaf error-leaf-a"></span><span class="error-leaf error-leaf-b"></span><span class="error-leaf error-leaf-c"></span><span class="error-nest"></span><span class="error-egg error-egg-small"></span><span class="error-egg error-egg-medium"></span>
       </div>
-
-      <div class="error-code" aria-label="Erro 404">
-        <span>4</span>
-        <span class="error-egg-zero" aria-hidden="true">
-          <span class="error-crack crack-a"></span>
-          <span class="error-crack crack-b"></span>
-          <span class="error-crack crack-c"></span>
-        </span>
-        <span>4</span>
+      <div class="error-decoration error-decoration-right" aria-hidden="true">
+        <span class="error-hen"><span class="error-hen-head"></span><span class="error-hen-body"></span><span class="error-hen-comb"></span><span class="error-hen-beak"></span><span class="error-hen-eye"></span><span class="error-hen-wattle"></span></span><span class="error-nest error-nest-right"></span>
       </div>
-
-      <section class="error-message" aria-labelledby="error-title">
-        <h1 id="error-title">Ops! Página não encontrada.</h1>
-        <p>
-          Parece que a galinha se perdeu por aqui...<br>
-          Mas você pode voltar para a página inicial e continuar<br class="desktop-only">
-          explorando nossos produtos e receitas.
-        </p>
-
-        <div class="error-actions">
-          <a class="btn btn-primary" href="index.html">
-            <span class="error-button-icon" aria-hidden="true">⌂</span>
-            PÁGINA INICIAL
-          </a>
-          <button class="btn btn-secondary" type="button" data-go-back>
-            <span class="error-button-icon" aria-hidden="true">←</span>
-            VOLTAR
-          </button>
+      <div class="error-container">
+        <div class="error-logo">
+          <img src="assets/images/logo.png" alt="Granja Fernandes — Ovos Caipiras">
         </div>
-      </section>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="copyright">
-        © 2026 Granja Fernandes. Todos os direitos reservados.
-        <span class="trademark-notice">Granja Fernandes® é uma marca registrada. É proibida a reprodução total ou parcial sem autorização prévia.</span>
+        <div class="error-code" aria-label="Erro 404">
+          <span>4</span><span class="error-egg-zero" aria-hidden="true"><span class="error-crack crack-a"></span><span class="error-crack crack-b"></span><span class="error-crack crack-c"></span></span><span>4</span>
+        </div>
+        <section class="error-message" aria-labelledby="error-title">
+          <h1 id="error-title">
+            Ops! Página não encontrada.
+          </h1>
+          <p>
+            Parece que a galinha se perdeu por aqui...
+            <br>
+            Mas você pode voltar para a página inicial e continuar
+            <br class="desktop-only">
+            explorando nossos produtos e receitas.
+          </p>
+          <div class="error-actions">
+            <a class="btn btn-primary" href="index.html"><span class="error-button-icon" aria-hidden="true">⌂</span>PÁGINA INICIAL</a>
+            <button class="btn btn-secondary" type="button" data-go-back>
+              <span class="error-button-icon" aria-hidden="true">←</span>VOLTAR
+            </button>
+          </div>
+        </section>
       </div>
-    </div>
-  </footer>
-
-  <script src="assets/js/main.js"></script>
-  <script>
-    document.querySelector('[data-go-back]')?.addEventListener('click', function () {
-      if (window.history.length > 1) {
-        window.history.back();
-      } else {
-        window.location.href = 'index.html';
-      }
-    });
-  </script>
-</body>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="copyright">
+          © 2026 Granja Fernandes. Todos os direitos reservados.<span class="trademark-notice">Granja Fernandes® é uma marca registrada. É proibida a reprodução total ou parcial sem autorização prévia.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/main.js">
+        
+    </script>
+    <script>
+        document.querySelector('[data-go-back]')?.addEventListener('click', function () {
+  if (window.history.length > 1) {
+  window.history.back();
+  } else {
+  window.location.href = 'index.html';
+  }
+  });
+    </script>
+  </body>
 </html>
