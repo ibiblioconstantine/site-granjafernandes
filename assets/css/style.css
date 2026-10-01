@@ -121,6 +121,19 @@ button {
 .mobile-menu a:hover {
   background: var(--sand);
 }
+.icon-definitions {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.whatsapp-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  fill: currentColor;
+}
 .btn {
   display: inline-flex;
   align-items: center;
@@ -159,15 +172,30 @@ button {
   overflow: hidden;
   background: var(--cream);
 }
+.hero-banner {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+}
+.hero-banner img {
+  display: block;
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  object-position: center;
+}
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.02fr .98fr;
-  min-height: 610px;
+  grid-template-columns: 1fr;
+  min-height: auto;
   align-items: center;
-  gap: 48px;
 }
 .hero-copy {
-  padding: 72px 0 92px;
+  padding: 64px 0 72px;
+  text-align: center;
+}
+.hero-copy p {
+  margin-inline: auto;
 }
 .eyebrow {
   display: inline-block;
@@ -207,41 +235,10 @@ button {
 }
 .hero-actions {
   display: flex;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 28px;
-}
-.hero-visual {
-  position: relative;
-}
-.hero-visual img {
-  width: 100%;
-  max-height: 620px;
-  object-fit: cover;
-  border-radius: 28px;
-  box-shadow: var(--shadow);
-  border: 6px solid var(--white);
-}
-.hero-badge {
-  position: absolute;
-  left: -18px;
-  bottom: 28px;
-  max-width: 265px;
-  padding: 16px 18px;
-  background: var(--sand);
-  border-radius: 16px;
-  box-shadow: var(--shadow);
-}
-.hero-badge strong {
-  display: block;
-  margin-bottom: 4px;
-  font-size: .88rem;
-  text-transform: uppercase;
-  letter-spacing: .04em;
-}
-.hero-badge span {
-  color: var(--muted);
-  font-size: .9rem;
 }
 .section {
   padding: 88px 0;
@@ -370,10 +367,14 @@ button {
   padding: 22px;
   border-radius: 16px;
   background: rgba(239,235,217,.62);
+  text-align: center;
 }
 .product-note p {
   margin: 0;
   color: var(--muted);
+}
+.product-note-action {
+  margin-top: 12px;
 }
 .story-grid {
   display: grid;
@@ -709,20 +710,11 @@ button {
     grid-template-columns: 1fr;
   }
   .hero-copy {
-    padding: 60px 0 20px;
+    padding: 48px 0 56px;
     text-align: center;
-  }
-  .hero p {
-    margin-inline: auto;
   }
   .hero-actions {
     justify-content: center;
-  }
-  .hero-visual {
-    padding-bottom: 60px;
-  }
-  .hero-badge {
-    left: 14px;
   }
   .products, .recipe-grid {
     grid-template-columns: repeat(2, minmax(0,1fr));
@@ -754,6 +746,9 @@ button {
   .brand-tagline {
     font-size: .58rem;
   }
+  .hero-banner img {
+    height: 260px;
+  }
   .hero h1 {
     font-size: 3rem;
   }
@@ -781,11 +776,6 @@ button {
   }
   .steps {
     grid-template-columns: 1fr;
-  }
-  .hero-badge {
-    position: static;
-    max-width: none;
-    margin-top: 14px;
   }
   .story-photo {
     min-height: 280px;
