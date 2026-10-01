@@ -135,3 +135,16 @@ A documentação integral das decisões permanece no repositório privado de con
 - `GF-CONFIG-001` — `.editorconfig`.
 - `GF-CONFIG-002` — `.prettierrc.json`.
 - `GF-DOC-048` — documentação do padrão de código.
+
+## 2026-10-01 — Atualizações da página Início
+
+### Task 65 — Ajustes de navegação, hero e CTAs
+- Eliminado o botão **CONHEÇA A GRANJA** da área principal da Home.
+- O botão **FAÇA SEU PEDIDO** do cabeçalho, menu móvel e área principal agora direciona para `nossos-ovos.html`.
+- A imagem `assets/images/hero-granja.png` passou a ocupar toda a largura da viewport e ficou posicionada no topo da área hero, imediatamente após o cabeçalho.
+- Eliminada a caixa **Direto da granja — Produção familiar e atendimento direto pelo WhatsApp.**
+- Adicionado ícone de WhatsApp aos CTAs que mantêm ação via WhatsApp na página Início.
+- Centralizada a mensagem **Compras em maior quantidade: caixa com 30 dúzias sob consulta.**
+- Centralizado o botão **CONSULTAR ATACADO**.
+- Mantida a ação de consulta via WhatsApp no botão de atacado.
+- Ajustes responsivos aplicados para a imagem hero em telas menores.
