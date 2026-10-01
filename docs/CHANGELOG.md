@@ -109,3 +109,29 @@ A documentação integral das decisões permanece no repositório privado de con
 ### Rastreabilidade
 - `GF-CODE-031` — reconstrução estrutural da página 404, uso da logo oficial e navegação funcional.
 - `GF-CODE-032` — estilos visuais responsivos da página 404.
+
+
+## 2026-10-01 — Padronização de indentação e legibilidade do código
+
+### Task 64 — Código human friendly
+- Reformatados os arquivos HTML de todas as páginas do site:
+  - `index.html`
+  - `nossa-historia.html`
+  - `nossos-ovos.html`
+  - `receitas.html`
+  - `contato.html`
+  - `404.html`
+- Reformatado o CSS global em `assets/css/style.css`.
+- Padronizada a indentação hierárquica do JavaScript em `assets/js/main.js`.
+- Padrão adotado: **2 espaços**, sem tabs, UTF-8, LF e quebra de linha final.
+- Criados `.editorconfig` e `.prettierrc.json` para estabelecer o padrão de formatação do projeto.
+- Criado `docs/CODING_STYLE.md` para registrar a regra de manutenção.
+- A alteração é exclusivamente de organização/formatação do código, sem mudança intencional de conteúdo, URLs, assets ou comportamento funcional.
+
+### Rastreabilidade
+- `GF-CODE-033` a `GF-CODE-039` — formatação inicial dos arquivos HTML e CSS.
+- `GF-CODE-040` e `GF-CODE-041` — padronização e correção hierárquica do JavaScript.
+- `GF-CODE-042` e `GF-CODE-043` — normalização dos scripts da página 404.
+- `GF-CONFIG-001` — `.editorconfig`.
+- `GF-CONFIG-002` — `.prettierrc.json`.
+- `GF-DOC-048` — documentação do padrão de código.
