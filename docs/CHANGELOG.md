@@ -148,3 +148,13 @@ A documentação integral das decisões permanece no repositório privado de con
 - Centralizado o botão **CONSULTAR ATACADO**.
 - Mantida a ação de consulta via WhatsApp no botão de atacado.
 - Ajustes responsivos aplicados para a imagem hero em telas menores.
+
+## 2026-10-01 — Clube e ajustes de CTAs
+
+### Task 66 — Página Clube e ajustes de CTA
+- Removido o botão **FAÇA SEU PEDIDO** localizado imediatamente abaixo da frase **É o sabor do campo servido diretamente à sua mesa.** na página Início.
+- Redimensionada a tipografia dos CTAs com ação WhatsApp para manter **PEDIR PELO WHATSAPP** em uma única linha dentro dos botões.
+- Removida a seta do botão **CONHECER O CLUBE**.
+- Atualizada a frase para **Conheça o Clube de Ovos da Granja Fernandes e consulte as possibilidades de frequência.**
+- Criada a página **Clube** em `clube.html`, com conteúdo provisório claramente apresentado como condições ainda em definição.
+- Os botões relacionados ao Clube existentes na Home e em Nossos Ovos foram direcionados para `clube.html`.
