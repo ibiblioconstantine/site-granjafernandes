@@ -158,3 +158,20 @@ A documentação integral das decisões permanece no repositório privado de con
 - Atualizada a frase para **Conheça o Clube de Ovos da Granja Fernandes e consulte as possibilidades de frequência.**
 - Criada a página **Clube** em `clube.html`, com conteúdo provisório claramente apresentado como condições ainda em definição.
 - Os botões relacionados ao Clube existentes na Home e em Nossos Ovos foram direcionados para `clube.html`.
+
+
+## 2026-10-02 — Verificação final das Tasks 65 e 66
+
+### Conclusão complementar
+- Verificada a Home após as implementações das Tasks 65 e 66.
+- Identificado que permanecia um terceiro cartão da seção de diferenciais com o título **Direto da granja**; o cartão foi removido integralmente, concluindo a exigência de eliminar a caixa correspondente.
+- Removido também o bloco HTML vazio `.hero-actions` que havia permanecido após a retirada do CTA sob o slogan.
+- Confirmado que o botão **FAÇA SEU PEDIDO** do cabeçalho e do menu móvel direciona para `nossos-ovos.html`.
+- Confirmado que `hero-granja.png` ocupa a largura da viewport no topo do hero.
+- Confirmados os ícones de WhatsApp nos CTAs da Home que utilizam ação WhatsApp.
+- Confirmados o texto e o botão de atacado centralizados.
+- Confirmada a ausência da seta no CTA **CONHECER O CLUBE** e o redirecionamento dos CTAs do Clube para `clube.html`.
+- Confirmada a existência da página `clube.html` com conteúdo provisório e indicação de que as condições comerciais definitivas ainda estão em definição.
+
+### Rastreabilidade
+- `GF-CODE-046` — conclusão complementar das Tasks 65/66 na Home.
