@@ -1182,3 +1182,15 @@ button {
     transform: scale(.65);
   }
 }
+
+/* CTAs de WhatsApp — manter o texto em uma única linha */
+.btn[data-whatsapp] {
+  font-size: clamp(.72rem, 1.05vw, .9rem);
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .btn[data-whatsapp] {
+    font-size: .72rem;
+    letter-spacing: .01em;
+  }
+}
